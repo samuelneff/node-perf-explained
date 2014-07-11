@@ -1,0 +1,17 @@
+{
+  "name": "node-perf-explained",
+  "version": "0.0.1",
+  "author": {
+    "name": "Samuel Neff",
+    "url": "https://github.com/samuelneff"
+  },
+  "description": "Node performance demo to explain how it performs well even though it's single-threaded.",
+  "dependencies" : {
+    "express"             : "3.4.7"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10.13"
+  },
+  "private": true
+}
