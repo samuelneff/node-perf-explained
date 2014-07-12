@@ -2,6 +2,9 @@
 /// <reference path='../typings/express/express.d.ts' />
 var express = require('express');
 var securityApi = require('./api/security-api');
+var http = require('http');
+
+http.globalAgent.maxSockets = 50;
 
 var app = express();
 

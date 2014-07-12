@@ -3,6 +3,9 @@
 
 import express = require('express');
 import securityApi = require('./api/security-api');
+import http = require('http');
+
+http.globalAgent.maxSockets = 50;
 
 var app:express.Application = express();
 

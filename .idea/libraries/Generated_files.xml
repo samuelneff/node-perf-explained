@@ -2,18 +2,32 @@
   <library name="Generated files" type="javaScript">
     <properties>
       <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/tests/express-http-perf.js" />
         <item url="file://$PROJECT_DIR$/server/app.js" />
-        <item url="file://$PROJECT_DIR$/server/types/User.js" />
+        <item url="file://$PROJECT_DIR$/server/cli.js" />
+        <item url="file://$PROJECT_DIR$/util/timer.js" />
+        <item url="file://$PROJECT_DIR$/tests/direct-performance.js" />
+        <item url="file://$PROJECT_DIR$/tests/express-rest-perf.js" />
         <item url="file://$PROJECT_DIR$/server/model/users.js" />
+        <item url="file://$PROJECT_DIR$/client/cli.js" />
         <item url="file://$PROJECT_DIR$/server/controllers/security-controller.js" />
         <item url="file://$PROJECT_DIR$/server/api/security-api.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/server/app.js" />
       <root url="file://$PROJECT_DIR$/server/types/User.js" />
+      <root url="file://$PROJECT_DIR$/client/app.js" />
+      <root url="file://$PROJECT_DIR$/server/types/User.js" />
+      <root url="file://$PROJECT_DIR$/client/app.js" />
+      <root url="file://$PROJECT_DIR$/server/app.js" />
+      <root url="file://$PROJECT_DIR$/tests/express-http-perf.js" />
+      <root url="file://$PROJECT_DIR$/server/cli.js" />
+      <root url="file://$PROJECT_DIR$/util/timer.js" />
+      <root url="file://$PROJECT_DIR$/tests/express-rest-perf.js" />
+      <root url="file://$PROJECT_DIR$/tests/direct-performance.js" />
       <root url="file://$PROJECT_DIR$/server/model/users.js" />
       <root url="file://$PROJECT_DIR$/server/controllers/security-controller.js" />
+      <root url="file://$PROJECT_DIR$/client/cli.js" />
       <root url="file://$PROJECT_DIR$/server/api/security-api.js" />
     </CLASSES>
     <SOURCES />
