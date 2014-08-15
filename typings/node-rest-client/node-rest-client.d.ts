@@ -24,7 +24,5 @@ declare module "node-rest-client" {
         unregisterMethod(methodName:string):void;
         methods:MethodsInterface;
     }
-
-    //export var Client:ClientStatic;
 }
 

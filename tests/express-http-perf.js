@@ -6,11 +6,13 @@ var app = express();
 
 var http = require('http');
 
-http.globalAgent.maxSockets = 10;
+http.globalAgent.maxSockets = 50;
 
 app.get('*', function (req, res) {
-    //setTimeout(() => res.send(req.query.i), 500);
-    res.send(req.query.i);
+    setTimeout(function () {
+        return res.send(req.query.i);
+    }, 500);
+    //res.send(req.query.i);
 });
 
 app.listen(8099);

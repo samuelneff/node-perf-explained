@@ -8,12 +8,12 @@ var app:express.Application = express();
 
 import http = require('http');
 
-http.globalAgent.maxSockets = 10;
+http.globalAgent.maxSockets = 50;
 
 
 app.get('*', (req:express.Request, res:express.Response) => {
-    //setTimeout(() => res.send(req.query.i), 500);
-    res.send(req.query.i);
+    setTimeout(() => res.send(req.query.i), 500);
+    //res.send(req.query.i);
 });
 
 app.listen(8099);
